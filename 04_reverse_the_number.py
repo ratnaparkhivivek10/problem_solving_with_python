@@ -1,3 +1,4 @@
+# Iterative solution
 def reverse_number(num):
     rev = 0
     while num:
@@ -6,6 +7,11 @@ def reverse_number(num):
         num = num // 10
 
     return rev
+
+# Recursive solution
+def reverse_number(num):
+    pass
+
 
 num = 123043
 num_rev = reverse_number(num)
