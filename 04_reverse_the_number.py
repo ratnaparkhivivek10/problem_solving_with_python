@@ -8,10 +8,6 @@ def reverse_number(num):
 
     return rev
 
-# Recursive solution
-def reverse_number(num):
-    pass
-
 
 num = 123043
 num_rev = reverse_number(num)
